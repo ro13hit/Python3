@@ -1,7 +1,7 @@
 def fall(l):
     for x in l:
         x=x*3
-        if(x==9):
+        if(x==9 and x>=0):
             print("going in")
         elif(x==15):
             print("last coming")
